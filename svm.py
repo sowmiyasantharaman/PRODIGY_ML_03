@@ -8,7 +8,7 @@ from skimage.io import imread
 from skimage.transform import resize
 
 # Step 1: Prepare the dataset
-cats_dir = r"C:\Users\sowmi\PycharmProjects\SVM\.venv\PetImages\Cat"
+cats_dir = r"C:\Users\sowmi\PycharmProjects\SVM\.venv\PetImages\Cat" #Add the path of your dataset here
 dogs_dir = r"C:\Users\sowmi\PycharmProjects\SVM\.venv\PetImages\Dog"
 
 categories = {'cats': 0, 'dogs': 1}
